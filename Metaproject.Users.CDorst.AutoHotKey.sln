@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFE514E3-583A-4BD8-8D68-DE211B7DFD5C}"
 	ProjectSection(SolutionItems) = preProject
+		AddAppveyorBuild.ahk = AddAppveyorBuild.ahk
 		CommandPrompt.ahk = CommandPrompt.ahk
 		CreateProject.ahk = CreateProject.ahk
 	EndProjectSection
