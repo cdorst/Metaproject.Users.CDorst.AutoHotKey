@@ -6,8 +6,7 @@
 	WinActivate, ahk_class ConsoleWindowClass
 	WinWaitActive, ahk_class ConsoleWindowClass
 	send, x:{enter}
-	send, cd..{enter}
-	send, cd..{enter}
+	send, cd X:\{enter}
 	send, cls{enter}
 	send, proj --Name "%ProjectName%" --Description "%ProjectDescription%" --Using "%PackageReferences%"
 	VarFunction = .Functions.
