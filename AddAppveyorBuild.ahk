@@ -3,7 +3,7 @@
     run, https://ci.appveyor.com/projects/new
 	if StrLen(ProjectName) > 0
 	{
-	    Sleep, 4000
+	    Sleep, 5000
 	    send, ^f
 		send, %ProjectName%
 	}
