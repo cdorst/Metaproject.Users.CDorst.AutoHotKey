@@ -1,15 +1,15 @@
-<^<+Numpad1::
+<^<+F9::
     send, Add LICENSE
 Return
 
-<^<+Numpad2::
+<^<+F10::
     send, Remove Class1
 Return
 
-<^<+Numpad3::
+<^<+F11::
     send, Add package info
 Return
 
-<^<+Numpad4::
+<^<+F12::
     send, Add appveyor.yml
 Return
