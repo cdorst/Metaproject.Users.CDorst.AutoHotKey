@@ -12,3 +12,17 @@
 	send, string name
 	send, {LControl Down}{LShift Down}{Left}{LControl Up}{LShift Up}
 Return
+
+; Create new list with an item
+<^<+F7::
+    send, :{Space}
+	Loop 2 {
+		send, new{Space}
+		Sleep, 100
+		send, {Tab}{Enter}
+		send, {{}
+		send, {Enter}
+		send, {}}
+		send, {Up}{Enter}
+	}
+Return
