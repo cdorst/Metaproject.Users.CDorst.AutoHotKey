@@ -15,7 +15,7 @@ Return
 
 ; Create new list with an item
 <^<+F7::
-    send, :{Space}
+    send, {Space}
 	Loop 2 {
 		send, new{Space}
 		Sleep, 100
